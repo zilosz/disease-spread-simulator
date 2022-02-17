@@ -1,0 +1,80 @@
+input, select{
+    width: 50px;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    color: white;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#elements{
+    height: 32px;
+    background-color: #0B6623;
+    padding: 10px;
+}
+
+#draw-space{
+    margin-left: 20px;
+    float: left;
+}
+
+#sim-button{
+    width: 220px;
+}
+
+#graph-link{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#graph1-div{
+    float: right;
+}
+
+#wrapper{
+    width: 1070px;
+    height: 1070px;
+    border: 1px solid white;
+}
+
+#graph-placeholder1{
+    float: right;
+}
+
+li:hover{
+    background-color: #00A86B;
+}
+
+input, #elements, #sim-button{
+    font-size: 20px;
+}
+
+input, body{
+    font-family: Georgia;
+}
+
+#draw-space, #graph1-div, #graph2-div, #graph-placeholder1, #graph-placeholder2{
+    border: 2px solid;
+}
+
+#graph1-div, #graph2-div, #graph-placeholder1, #graph-placeholder2{
+    width: 500px;
+    height: 500px;
+}
+
+#draw-space, #graph-placeholder1, #graph-placeholder2, #graph1-div{
+    margin-top: 20px;
+}
+
+#graph1-div, #graph-placeholder1{
+    margin-right: 20px;
+}
+
+#graph2-div{
+    margin-top: 540px;
+}

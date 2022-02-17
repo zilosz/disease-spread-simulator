@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Pandemic Simulator Project</title>
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+
+<body>
+  <center>
+    <h1>Population Grid</h1>
+    <form oninput='handler()'>
+      <ul id='elements'>
+        <li>Pop Size Sq Root <input id='pop-size' type='text' value='100'></li>
+        <li>Average Infections Caused By Person <input id='avg-infections' type='text' value='2.3'></li>
+        <li>Infection Range Modifier <input id='infection-range' type='text' value='4'></li>
+        <li>Social Distancing Efficiency <input id='social-dist' type='text' value='0.60'></li>
+      </ul>
+      <input id='sim-button' type='button' value='Begin Simulation' onclick='simulate()'>
+    </form>
+    <h2 id='total-infections'>Total People Infected: </h2>
+    <div id='wrapper'>
+      <canvas id='draw-space' width='500' height='500'></canvas>
+      <div id='node1'></div>
+      <canvas id='graph-placeholder1' width='500' height='500'></canvas>
+      <div id='node2'></div>
+      <canvas id='graph-placeholder2' width='500' height='500'></canvas>
+    </div>
+    <script src="script.js"></script>
+  </center>
+</body>
+
+</html>
